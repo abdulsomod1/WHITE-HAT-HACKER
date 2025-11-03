@@ -3230,9 +3230,6 @@ fieldset:disabled .btn {
   opacity: 0;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
 
 .collapsing {
   height: 0;
@@ -11864,7 +11861,7 @@ textarea.form-control {
     height: 51%;
   }
   .hero-banner .left-hero-color {
-    padding-top: 70px;
+    padding-top: 218px;
   }
 
   .btn {
@@ -11874,6 +11871,10 @@ textarea.form-control {
     margin-left: 8%;
     width: 82%;
     /* justify-content: center; */
+}
+
+#none {
+  display: none;
 }
 
 .hero-banner .left-hero-color p {
@@ -11889,7 +11890,7 @@ textarea.form-control {
   .hero-banner .left-hero-color h1,
   .hero-banner .left-hero-color .h1 {
     max-width: 100%;
-    font-size: 40px;
+    font-size: 32px;
   }
   .hero-banner .right-hero-color {
     padding-top: 20px;
@@ -12314,4 +12315,28 @@ textarea.form-control {
   position: absolute;
   bottom: 20px;
 }
+
+.main-header .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 17px;
+  padding: 0px 50px 0 0;
+  color: #061434;
+  font-weight: 500;
+  display: none;
+}
+
+.collapse:not(.show) {
+  display: flex;
+}
+
+.white-hat {
+    width: 30%;
+}
+
+.hat1 {
+    font-size: 23px;
+    margin-right: 5%;
+    white-space: nowrap;
+    font-weight: 900;
+}
+
 }

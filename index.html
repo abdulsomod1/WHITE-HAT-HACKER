@@ -47,7 +47,7 @@
 
 
 
-          <a class="btn btn-warning btn-hover-secondery text-capitalize" href="#contact">Contact Us</a>
+          <a id="none" class="btn btn-warning btn-hover-secondery text-capitalize" href="#contact">Contact Us</a>
         </div>
     </div>
     </nav>
@@ -77,11 +77,16 @@
           </li>
         </ul>
         <div class="login d-block align-items-center mt-3">
-          <a class="btn btn-warning text-capitalize w-100" href="#">contact us</a>
+          <a class="btn btn-warning text-capitalize w-100" href="#contact">contact us</a>
         </div>
       </div>
     </div>
   </header>
+
+
+  </div>
+</nav>
+
 
   <!--# ======================================================================= -->
   <!--#                              Hero Section                               -->
@@ -93,9 +98,8 @@
           <div class="position-relative left-hero-color">
             <h1 class="mb-0 fw-bold">STAY ALERT</h1>
             <h1 class="mb-0 fw-bold">STAY SECURE</h1>
-            <p>You will need a professional hacker that’s highly safe and confidential to do it for you, we are the best
-              suit for that.</p>
-            <a href="#" class="btn btn-warning btn-hover-secondery">Contact Us</a>
+            <p>You are seeking a highly skilled discreet, cybersecurity profession to perform confidential services. A white Hat Specialist has you covered</p>
+            <a href="#contact" class="btn btn-warning btn-hover-secondery">Contact Us</a>
           </div>
         </div>
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
@@ -138,7 +142,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xxl-8 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-          <video controls src="./video/White Hat Hacker.mp4" class="img-fluid"></video>
+          <video class="img-fluid" controls playsinline muted loop poster="thumbnail.jpg">
+    <source src="./video/White Hat Hacker.mp4" type="video/mp4">
+    <!-- Fallback for older browsers -->
+    Your browser does not support the video tag.
+</video>
         </div>
         <div id="margin00"
           class="col-xxl-4 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ps-xxl-0 ps-xl-0 ps-lg-3 ps-md-3 ps-sm-3 ps-3">
@@ -325,7 +333,11 @@
   <!--#                             Footer Section                              -->
   <!--# ======================================================================= -->
   <footer id="contact" class="footer">
+    <h2 id="#contact-uus" class="fs-3 text-white mb-0">
+        Contact Us:
+      </h2>
     <div class="container">
+
       <div class="row">
         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <div class="footer-logo-col">
@@ -341,10 +353,10 @@
         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-12">
           <h5 class="text-white">Social</h5>
           <ul class="list-unstyled mb-0 pl-0">
-            <li><a href="https://wa.link/onabpx">Whatsapp</a></li>
-            <li><a href="mailto:whitehat244@gmail.com">Gmail</a></li>
+            <li><a href="https://wa.link/onabpx"><i class="fa-brands fa-square-whatsapp"></i>Whatsapp</a></li>
+            <li><a href="mailto:whitehat244@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a></li>
             <li><a href="https://msng.link/o? ‪+1 559 205 4946‬=tg
-">Telegram</a></li>
+"><i class="fa-brands fa-telegram"></i>Telegram</a></li>
           </ul>
         </div>
         <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-12">
