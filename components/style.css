@@ -621,6 +621,7 @@ progress {
   object-fit: cover;
   border-radius: 5%;
   background-color: #001c68;
+  width: 100%;
 }
 
 .img-thumbnail {
