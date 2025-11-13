@@ -614,16 +614,6 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 5%;
-  background-color: #001c68;
-  width: 100%;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11145,7 +11135,7 @@ fieldset:disabled .btn {
   position: absolute;
   content: "";
   top: 27px;
-  left: -22px;
+  left: -17px;
   width: 100%;
   height: 100%;
   background-size: contain;
@@ -11556,7 +11546,7 @@ fieldset:disabled .btn {
 }
 
 .footer {
-  padding: 170px 0 100px;
+  padding: 95px 0 100px;
   background-color: #001c68;
 }
 .footer .footer-logo-col img {
@@ -11763,7 +11753,7 @@ textarea.form-control {
     padding: 40px 15px 30px;
   }
   .footer {
-    padding: 80px 0 80px;
+    padding: 50px 0 80px;
   }
   .footer .footer-logo-col {
     padding-right: 0;
@@ -12055,7 +12045,7 @@ textarea.form-control {
   .portfolio .portfolio-slider .owl-stage {
     left: 35px;
   }
-}
+
 /*max-width 576px*/
 @media (max-width: 575.98px) {
   .card-action .btn {
@@ -12372,4 +12362,31 @@ textarea.form-control {
 .fa-brands-1 {
         font-size: 19px;
         color: #92acf2 !important;
+}
+
+@keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 5%;
+    background-color: #001c68;
+    width: 100%;
+    animation: float 3s 
+ease-in-out infinite;
+    margin-top: 12%;
 }
