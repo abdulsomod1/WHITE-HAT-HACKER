@@ -14193,6 +14193,16 @@ textarea.form-control {
   }
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 5%;
+  background-color: #001c68;
+  width: 100%;
+}
+
 #img-animate {
   animation: float 3s ease-in-out infinite;
   margin-top: 12%;
